@@ -86,7 +86,6 @@ function drawLine(id1, id2, width, alpha, color, cls, pct){
 	var x2 = bbox2.x + window.scrollX;
 	var y2 = bbox2.y + bbox2.height/2. + window.scrollY;
 
-	console.log(id1, id2, x2, y2, el2.node())
 	var op = 1;
 	if (params.hideLines[cls]){
 		op = 0;
